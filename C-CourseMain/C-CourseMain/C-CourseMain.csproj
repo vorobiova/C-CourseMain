@@ -43,16 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NumberCollector.cs" />
-    <Compile Include="DataList.cs" />
-    <Compile Include="Lessons.cs" />
+    <Compile Include="Classwork\Car.cs" />
+    <Compile Include="Classwork\Demo.cs" />
+    <Compile Include="Lesson2\NumberCollector.cs" />
+    <Compile Include="Lesson1\DataList.cs" />
+    <Compile Include="HomeworkTest.cs" />
+    <Compile Include="Lesson3\StringConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AlphaNumbericCollector.cs" />
-    <Compile Include="StringCollector.cs" />
+    <Compile Include="Lesson2\AlphaNumbericCollector.cs" />
+    <Compile Include="Lesson2\StringCollector.cs" />
+    <Compile Include="Classwork\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Classwork\InputStudents.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

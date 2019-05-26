@@ -6,8 +6,10 @@ namespace C_CourseMain
     {
         static void Main(string[] args)
         {
-            Lessons.Lesson1Test();
-            Lessons.Lesson2Test();             
+            //HomeworkTest.Lesson1Test();
+            //HomeworkTest.Lesson2Test();
+            //HomeworkTest.TestClassLesson3();
+            HomeworkTest.Lesson3Test();
         }
     }
  
